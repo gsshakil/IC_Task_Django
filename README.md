@@ -2,7 +2,7 @@
 
 <h3>Installation</h3>
 
-1. $ python3 venv -m venvname
+1. $ python3 -m venv venvname
 
 2. $ cd /path/to/your/workspace
    $ git clone https://github.com/gsshakil/IC_Task_Django.git projectname && cd projectname
