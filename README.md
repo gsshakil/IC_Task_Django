@@ -2,19 +2,11 @@
 
 <h3>Installation</h3>
 
-1. Create Virtual Environment
+1. $ python3 venv -m venvname
 
-<small>$ python3 venv -m venvname</small>
+2. $ cd /path/to/your/workspace
+   $ git clone https://github.com/gsshakil/IC_Task_Django.git projectname && cd projectname
 
-2. Download
+3. $ pip install -r requirements.txt
 
-<small>$ cd /path/to/your/workspace</small>
-<small>$ git clone https://github.com/gsshakil/IC_Task_Django.git projectname && cd projectname</small>
-
-3. Requirements
-
-<small>$ pip install -r requirements.txt</small>
-
-4. Run
-
-<small>./manage.py runserver</small>
+4. ./manage.py runserver
