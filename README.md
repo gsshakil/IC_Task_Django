@@ -3,10 +3,13 @@
 <h3>Installation</h3>
 
 1. $ python3 -m venv venvname
+   $ cd venvname
+   $ source ./bin/activate
 
 2. $ cd /path/to/your/workspace
-   $ git clone https://github.com/gsshakil/IC_Task_Django.git projectname && cd projectname
-
+   $ git clone https://github.com/gsshakil/IC_Task_Django.git projectname
+   $ cd projectname
+   
 3. $ pip install -r requirements.txt
 
 4. ./manage.py runserver
